@@ -1,7 +1,7 @@
 .. title: 开始使用Ubuntu作为主环境
 .. slug: environment-startted-with-ubuntu
 .. date: 2014/04/06 15:57:20
-.. tags: ubuntu
+.. tags: Ubuntu
 .. link: 
 .. description: 
 .. type: text

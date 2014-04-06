@@ -1,7 +1,7 @@
 .. title: 初入上海一月记
 .. slug: fist-month-in-shanghai
 .. date: 2014/04/06 21:53:04
-.. tags: life
+.. tags: Life
 .. link: 
 .. description: 
 .. type: text
