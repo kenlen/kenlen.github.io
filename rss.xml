@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Kenlen's Blog</title><link>http://kenlen.net/</link><description>Recording my life....</description><atom:link href="http://kenlen.net/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>zh_cn</language><lastBuildDate>Mon, 07 Apr 2014 00:29:18 GMT</lastBuildDate><generator>Nikola &lt;http://getnikola.com/&gt;</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>初入上海一月记</title><link>http://kenlen.net/posts/fist-month-in-shanghai.html</link><description>&lt;div&gt;&lt;p&gt;从千里之外的海滨城市风尘扑扑的来到了上海，掰手一算一个月的时间就这么过去了，在上个城市所有10年多的学习和工作所有的积累转换成了一个拉箱，一个手提包和一背包随着30岁的我这个陌生的城市闯荡，最初只是为了想跳出舒适圈，挑战挑战自己突破下，但是在这一个月里，转变的阵痛超出了我原来的预期。&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;有关于生活&lt;/h2&gt;
+&lt;p&gt;首先，毫无疑问是租房，原本计划是要去广州三个月做项目但是第一天入职被告知项目推后，当天晚上心急火缭去找房子，听说上海租房贵但是真没想到会这么贵，内环两室一厅的商品房都是在5k+，原来网络上便宜点的房子都是中介骗取租客联系，一般打电话过去问都是说网上性价比高的房子已经没有了接着推荐你其他的房源，租费又是远高于网络价格，只好求助于同事，问问哪里的房子性价比高，被告知只有浦东了。。唉，不想和人合租又不想价格超过3.5k 无奈接受了同事的建议入职第二天来到了世博园附近找老公房，找到了中介，其实没有多想就直接让他们带着我去看房子了，看的房子一家比一家差，价格一家比一家贵，乱七八糟的，我都对中介说这些房子倒贴给钱叫我住都不住其实也只是过过嘴瘾罢了。不过最后一家看的房子还可以，虽然装修什么差点，地板脏点但是好歹南北通透，没有什么奇怪的味道，上了一天班又看了一个晚上的房太辛苦了也不愿意多想，和房东把价格谈到了3.2k就算是租了下来，周末签合同，后来细细回忆了下，这其实也是中介的营销手段之一，先带你看差房子一个比一个差，降低你的期望值最后带一个还算很普通的地，你就觉得这很普通的地算是很好的了。第一次和中介打交道，没有被坑也没赚到什么好处，一切按合同走，交了35%的中介费，不过房东一家人还不错，后来周末自己刷了刷地板整理了下房子，还算是整洁，第一次租房暂告一段落了，体验了租客生活。&lt;/p&gt;
+&lt;p&gt;其次，消费，吃饭在上海如果稍微正规的快餐店都要25-35RMB，消费真高啊，地铁3块起步，打的14块起步，总之什么都比其他城市高出一截。谁叫上海是第一大城市呢？有次我换了个15块的快餐店试了下，那个饭和菜简直难以下咽，算了孤身在外吃饱穿暖才是正道，省下几块钱去冒着胃肠炎的风险不值得。不过上海物流比较发达，在京东和一号店买了很多生活必需品，一般第二天送货上门如果多的话可以预约时间上门，一线城市可是大电商的必争之地，服务不好可不行，陆续买了3k-4k左右的东西，装上了电信宽带，买了上海的号码，搬来了寄送过来暂存在朋友家的书籍，大概三周后生活也慢慢步入了正规。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;有关于工作&lt;/h2&gt;
+&lt;p&gt;虽然在IT行业混6年多的时间但是毕竟是硬件厂商，在如火如荼的互联网革命中一直觉得置身于事外，外企在华的日子一年不如一年，个人的成长也受到了限制，一直寻觅着互联网特别是中型电子商务公司，和公司一起成长突破自己的极限，抱着这样的目的来到了上海，有句鸡汤话叫空杯心态，其实真的很难做到一个这样的心态，你的行为和思考的方式在一个行业内太久必然很多事情想着用以前的方式方法做，这个是很多人犯过的错也是非常容易犯的错，我只能小心翼翼的转变下自己的思考方式，尽量吻合这个企业做事的风格，这期间是很痛苦的过程但是也是必须要经历的。&lt;/p&gt;
+&lt;p&gt;在这一个月期间里，我深深感受到了为什么外企的日子一年不如一年，本土互联网企业的员工真的太拼命了，每天加班都是到7-8点，与外企相反很少看到里面有混日子的人，外企更注重一个人的综合素质考核或者是说一个人行为风格够不够专业，很多时候这些“专业”人士成为扯皮的源头，一系列无效会议的开始，本土互联网企业更看重的是解决问题的能力，找你来，你能帮忙解决什么问题？很实际，很现实，这个是第一要素，非常明显，外企对新入员工有一系列培训为期大概一个月左右，但是我这次入职，在第二天就开始丢到游泳池里面游泳了，不懂的话找内部wiki文档，真没有人是手把手的教你。我现在无法衡量出到底哪种方式更好，但是目前来看，这样能够比较方便的帮助本土企业筛选出真正学习能力强的人。&lt;/p&gt;
+&lt;p&gt;其次，硕士生是一个入门的标准了，周围的同事学历基本在硕士及以上，年纪轻轻85后90后不少，斗志十足，先不说以学历论英雄，但是起码学术的底子会好很多，有很多值得学习的东西。&lt;/p&gt;
+&lt;p&gt;最近看了刚离职的腾讯CTO &lt;a class="reference external" href="http://new.iheima.com/detail/2014/0320/59689.html"&gt;http://new.iheima.com/detail/2014/0320/59689.html&lt;/a&gt; 的分享，是真是假无从考证了也没必要，但是里面有段鸡汤文还是很有意思的，在很苦逼的时候就会翻起来看看，暗示自己选择没有错。&lt;/p&gt;
+&lt;blockquote&gt;
+专心做好你自己眼前的事情，总好过你到一个松松垮垮的地方，给你一张报纸、一杯茶、6点钟回家，这看起来轻轻松松，但这也意味着你在10年之后的竞争力是一辈子都离不开那个地方。但是在一个很苦逼的地方，只要有好的环境和成长动力，你将来一定会有更多的空间。过几年之后这两个人的竞争力量是完全不一样的。&lt;/blockquote&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>life</category><guid>http://kenlen.net/posts/fist-month-in-shanghai.html</guid><pubDate>Sun, 06 Apr 2014 13:53:04 GMT</pubDate></item><item><title>开始使用Ubuntu作为主环境</title><link>http://kenlen.net/posts/environment-startted-with-ubuntu.html</link><description>&lt;div&gt;&lt;p&gt;最近刚买了一个sandisk至尊高速系列128GB的SSD来替代的5,400转的机械硬盘，琢磨着要重装系统，于是干脆转到ubuntu上面作为工作学习的环境，Python和R是我最主要的工作语言，这两个东西在windows下很多包安装比较费劲，干脆全面拥抱开源吧。时不时接触Debian系列的系统，安装的过程不怎么费劲，费劲的地方是配置，记录下来作为一篇文档给自己或者别人作为以后的一种参考.&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;硬件配置&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SSD：&lt;/strong&gt;
+在买之前看了一些网上文章和评论 大部分人还是纠结着分数的抱怨，跑分之类的文章，其实分数都是给人看主要关心实际应用怎么样，毕竟不是服务器环境快1秒半秒感觉不出来，所以挑了个保修过硬，口碑不错，价格适中的Sandisk。4k对齐的问题，其实开发人员早就考虑过这个问题，在安装的时候全部挂载到根目录，一个人用又是这么小的硬盘就没必要分目录了，内存超过4G没必要用swap。系统基本用不完的，很多人还启用了一些内存当着ramdisk挂在/tmp目录下面怕过多的写导致SSD寿命缩短，怕麻烦，我就选择相信厂商的实力忽略了。
+关闭EXT4的日志功能，对个人电脑来说日志倒是无所谓，写了几句关闭了它
+测试结果如下，还不错&lt;/p&gt;
+&lt;p&gt;/dev/sda:&lt;/p&gt;
+&lt;p&gt;Timing cached reads: 15856 MB in 2.00 seconds = 7933.67 MB/sec&lt;/p&gt;
+&lt;p&gt;Timing buffered disk reads: 1472 MB in 3.00 seconds = 490.28 MB/sec&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;显卡&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我这台笔记本是双显卡，intel和NV G640，默认是两个卡全开，这样会导致风扇呼呼的吹，内部温度居高不下，电池耗电，所以得想办法禁用了它，网上看搜索了下文档:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$sudo add-apt-repository ppa:bumblebee/stable
+$sudo apt-get update
+$sudo apt-get install bumblebee bumblebee-nvidia
+&lt;/pre&gt;
+&lt;p&gt;靠上面的命令可以装上我们的大黄蜂nv显卡驱动，查看显卡工作状态得靠下面的命令:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$lspci|grep VGA
+$00:02.0 VGA compatible controller: Intel Corporation 3rd Gen Core processor Graphics Controller (rev 09)
+$01:00.0 VGA compatible controller: NVIDIA Corporation GK107M [GeForce GT 640M] (rev ff)
+&lt;/pre&gt;
+&lt;p&gt;如果rev 是ff状态就代表关闭独显了&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;触摸板&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这电脑的触摸板比较坑，系统把它认成了鼠标，fn+f3没办法禁用触摸板，驱动程序不起作用，放狗搜索了下，决定用touchpad-indicator来禁用吧:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$sudo add-apt-repository ppa:lorenzo-carbonell/atareao
+$sudo apt-get update
+$sudo apt-get install touchpad-indicator
+&lt;/pre&gt;
+&lt;p&gt;安装完成后，可点击Applications &amp;gt; Accessories &amp;gt; Touchpad Indicator来禁用触摸板&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;软件环境&lt;/h2&gt;
+&lt;p&gt;本着不折腾的原则来选择自己的喜欢的软件&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Terminal&lt;/strong&gt;
+直接用自带的gnome-terminal 出于喜欢rxvt透明环境，在.bashrc里面加上下面的一段bash，90是调整透明度的&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;浏览器&lt;/strong&gt; google 的chrome，顺手把firefox卸载了&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;输入法&lt;/strong&gt; 卸载了ibus，用小企鹅:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$sudo add-apt-repository ppa:fcitx-team/nightly &amp;amp;&amp;amp; sudo apt-get update
+&lt;/pre&gt;
+&lt;p&gt;我比较喜欢google的拼音输入法:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$sudo apt-get install fcitx-googlepinyin
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;邮件&lt;/strong&gt; ThunderBird比较顺手，无缝集成newsgroup&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VIM&lt;/strong&gt; 从spf13出来后，我就再也没配置过vim了，这个插件足够好用，该有的都有了。折腾vim是个吃力不讨好的事情，但是我喜欢它的高效，配置的事情丢给别人去做吧&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TeamViewer&lt;/strong&gt; 有时候要远程到公司的工作机上，我使用了teamviewer的解决方案，安装比较坑，因为12.04及以后的版本缺失了Multiarch这个包后根本没办法装上官方版本，不过好歹在文档上提示了。网上搜索了下按照这样的方式就ok了:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$wget http://www.teamviewer.com/download/teamviewer_linux.deb
+$sudo apt-get install gdebi
+$sudo gdebi teamviewer_linux.deb
+&lt;/pre&gt;
+&lt;p&gt;其他的比较大众化，装了一个Dropbox,架设了把goagent的梯子，Office用自带的LibreOffice,git,python 等等或是大众或是专业的软件可以通过apt来装，大家想用啥就用啥吧。
+陆陆续续用了几天来配置，除了网银外，其他还算顺手，顺便说句SSD真的很爽，开机post 后2秒进入桌面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考信息：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.codinglabs.org/articles/getting-started-with-ubuntu.html"&gt;http://blog.codinglabs.org/articles/getting-started-with-ubuntu.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://blog.sina.com.cn/s/blog_6dee445401013sss.html"&gt;http://blog.sina.com.cn/s/blog_6dee445401013sss.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.linuxwind.org/html/tag/dell-inspiron-7420"&gt;https://www.linuxwind.org/html/tag/dell-inspiron-7420&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://forum.ubuntu.org.cn/"&gt;http://forum.ubuntu.org.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;etc..&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>ubuntu</category><guid>http://kenlen.net/posts/environment-startted-with-ubuntu.html</guid><pubDate>Sun, 06 Apr 2014 07:57:20 GMT</pubDate></item><item><title>不要因为走得太远，忘了我们为什么出发</title><link>http://kenlen.net/posts/books-review-see.html</link><description>&lt;div&gt;&lt;p&gt;2013年第一本书, 我花了10多个小时读完了柴静的&amp;lt;&amp;lt;看见&amp;gt;&amp;gt;, 20章，23万字，424页,记载作者亲历过的的人和事, 透过这些我们可以看到柴静10多年来在央视在新闻行业里面的成长历程, 柴静的文字驾驭能力极佳很少有一本自传能这本书一样用朴实的文字娓娓道来.好书的价值在于启发读书的人，读者有了感触，有了共鸣，然后去践行才是价值的落脚，这个意义上，柴静就是每个人的陈虻，看见之所以是看见，而不是告诉，就是推动每个人去思考，去实践.&lt;/p&gt;
+&lt;p&gt;原先我认为作为一名记者需要有自己鲜明的观点,嫉恶如仇, 弘扬正义. 合上书后发现真正优秀的记者是一个让大众了解事情的来龙去脉, 不带入个人的情感.泪水和愤怒是人之常情，但公众对记者这个职业的要求是揭示这个世界，不是挥舞拳头站在什么东西的对面，要疑问，不要质问，记者提供的是事实，不是情绪。而柴静的问题总是太投入了，热爱就会夸张，感情就会变形，就没办法真实地认识事物了。陈虻一语中的：“痛苦是财富，这话是扯淡，痛苦就是痛苦，对痛苦的思考才是财富。”&lt;/p&gt;
+&lt;p&gt;里面有很多值得好好揣摩的话,记录在这里&lt;/p&gt;
+&lt;blockquote&gt;
+我试着尽可能诚实地写下这不断犯错、不断推翻、不断疑问、不断重建的事实和因果，一个国家由人构成，一个人也由无数他人构成，你想如何报道一个国家，就要如何报道自己
+不要因为走得太远，忘了我们为什么出发
+白岩松：“人们声称的最美好的岁月其实都是最痛苦的，只有事后回忆起来的时候才那么幸福。
+“你想采访弱者，就要让弱者同情你。”&lt;/blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;陈虻： 你要听懂了我的每一句话，你一定误解了我的意思。 不要过于热衷一样东西，这东西已经不是它本身，变成了你的热爱，而不是事件本身了。 痛苦是财富，这话是扯淡。姑娘，痛苦就是痛苦，对痛苦的思考才是财富。 我不是要告诉你怎么改，我是要激发你自己改的欲望。 你有自己认识事物的坐标系吗？&lt;/li&gt;
+&lt;li&gt;卢安克： 我最害怕的是崇拜者，因为崇拜基于的往往是幻想。崇拜最终的结果也只能是失望。 人类大部分的苦都是因为期待的存在。其实，在人生中不存在任何必须的事情，只存在不必要的期待。没有任何期待和面子的人生是最美好和自由的，因为这样，人才能听到自己的心。&lt;/li&gt;
+&lt;li&gt;海子有句诗，深得我心：”天空一无所有，为何给我安慰。”&lt;/li&gt;
+&lt;li&gt;野夫：”那是因为我们已经不是大多数人，在很大程度上已经免于受辱了。”&lt;/li&gt;
+&lt;li&gt;张北川：”我们的性文化里，把生育当作性的目的，把无知当纯洁，把愚昧当德行，把偏见当原则。”&lt;/li&gt;
+&lt;li&gt;他私下里教育我：”你生活得太塑料了，不真实。” 我白他：”怎么了？” “过分得体。” “什么意思？” 他来劲了，比划比划：”要像打枪一样。有句话，叫有意瞄准，无意击发。要有这个’无意’。”&lt;/li&gt;
+&lt;li&gt;厄运中的人多有一种对自己的怨憎，认为是自我的某种残破招致了某种命运。&lt;/li&gt;
+&lt;li&gt;斯宾诺莎：”嘲笑、轻蔑、愤怒、报复……这些情绪，都与恨有关或者含有因恨而起的成分，不能成为善。” 他界定观察的实质是：”不赞美，不责难，甚至也不惋惜，但求了解认识而已。”&lt;/li&gt;
+&lt;li&gt;法官问过他，你是往哪个方向开？ 他（药家鑫）说：对不起，我分不清东南西北。&lt;/li&gt;
+&lt;li&gt;做新闻，就是和这个时代的疾病打交道，我们都是时代的患者，采访在很大程度是病友之间的相互探问。（王开岭）&lt;/li&gt;
+&lt;li&gt;认识这么多年了，两人还是这样，能把一步之遥走成千山万水。&lt;/li&gt;
+&lt;li&gt;人能感受别人的时候，心就变软了，软不是脆弱，是韧性。&lt;/li&gt;
+&lt;li&gt;原来大家童年都寂寞。&lt;/li&gt;
+&lt;li&gt;能说的都已知道，不能说的也不必再说。&lt;/li&gt;
+&lt;li&gt;“不要问我为何如此眷恋，我不再与世界争辩，如果离去的时刻钟声响起，让我回头看见你的笑脸。&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>OldBlog</category><category>Book</category><guid>http://kenlen.net/posts/books-review-see.html</guid><pubDate>Mon, 07 Jan 2013 02:22:41 GMT</pubDate></item><item><title>2012年个人总结</title><link>http://kenlen.net/posts/review-2012.html</link><description>&lt;div&gt;&lt;p&gt;今天是2013年的第一天, 根据以前的习惯得对去年的一些情况做出些总结 回忆一年前的今天, 我希望在2012年完成的事情 1. 是学习.net 这件事情我完成了. 并独立帮助部门建立了一个EXCEL Template Submission的系统, 大家可以在线下做完后upload到那个系统里面, 在submit的过程中,应该是说upload到服务器后会自动的检查 Template的有效性和符合不符合要求. 这个project下来 减轻和一堆的工作量, 实现了one org one truth&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;英语, 应该来说这年的英语还是有很大的提高. 但还是没有达到流利的程度. 口语还需加强. 有的时候急起来会忘记怎么说.&lt;/li&gt;
+&lt;li&gt;精读20本书. 应该说精读不够, 泛读 应该有大概30本左右了.主要还是技术和技术管理之类的书籍.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2012 还有些值得纪念的事情&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;2012-12-19号我升级为父亲, 小女儿顺利降临到人世万分可爱.&lt;/li&gt;
+&lt;li&gt;学习了python 并期待在2013年能够通过python建立一些tools&lt;/li&gt;
+&lt;li&gt;关于未来的职业发展有了更清晰的认识, 技术和商业想结合的道路, 从数据挖掘出商业价值.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关于2013 的todo list 如下&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;希望女儿健康 平安的成长&lt;/li&gt;
+&lt;li&gt;自己的职位上有所突破&lt;/li&gt;
+&lt;li&gt;趁年轻多加努力学习提高自己的技术水平&lt;/li&gt;
+&lt;li&gt;对商业有进一步的认识&lt;/li&gt;
+&lt;li&gt;英语得提高&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>OldBlog</category><category>Review</category><guid>http://kenlen.net/posts/review-2012.html</guid><pubDate>Mon, 31 Dec 2012 16:19:31 GMT</pubDate></item><item><title>布道之道</title><link>http://kenlen.net/posts/books-reviews-driving-teachincal-change.html</link><description>&lt;div&gt;&lt;p&gt;我想如何和人打交道是世界上最困难的事情.人大部分的时间是是感情因素所支配的高级动物. 动脑的时间远比动情的时间少很多.如果时时刻刻都是理性思维的话, 至少这本书就没有存在的必要. 布道之道针对IT技术从业者把新技术, 新思维, 新方法推广到团队,公司所遇到的人, 问题做出一些总结.并给出了些相对靠谱的解决方案. 这些东西或多或少在别的书里都有出现提及.不过依旧可以看到作者的用心, 特别书中的几个例子都非常典型.
+这本书总结起来就是经常说的几句话&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;要认清楚需要真正解决的问题是什么&lt;/li&gt;
+&lt;li&gt;要知道当前怀疑者面对的真正困难是什么&lt;/li&gt;
+&lt;li&gt;对事不对人&lt;/li&gt;
+&lt;li&gt;对不同的人要有不同的沟通方式&lt;/li&gt;
+&lt;li&gt;作出多次小改变往往比一次性的大改变要得容易&lt;/li&gt;
+&lt;li&gt;说服别人比强迫别人要好的多&lt;/li&gt;
+&lt;li&gt;布道者要保持开放的心态&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;印象最深的一句话就是&lt;/p&gt;
+&lt;blockquote&gt;
+公司的存在都有一个理由, 这个理由通常不是技术.如果你能把自己的工具与该理由联系到一块,那么就不仅可以获得管理层的帮助而且直接为公司的最大利益服务,这句话就是布道师的准绳&lt;/blockquote&gt;
+&lt;p&gt;要推广的技术究竟为公司带来什么, 是减少成本还是增加公司盈利.技术多么炫多么牛逼说实话不重要.关键是能不能利润化.这也是很多程序员的死结之一.&lt;/p&gt;&lt;/div&gt;</description><category>OldBlog</category><category>Book</category><guid>http://kenlen.net/posts/books-reviews-driving-teachincal-change.html</guid><pubDate>Sat, 03 Nov 2012 16:17:12 GMT</pubDate></item><item><title>观止读后感</title><link>http://kenlen.net/posts/books-review-showstopper.html</link><description>&lt;div&gt;&lt;p&gt;最近趁京东图书促销的时机入手了一些经典图书, 观止就是其中一本, 该书通过新闻记者角度记载了卡特勒带领着超过200人的团队花费了5年的时间 15亿美金的投入 来开发windows NT 过程(NT 的意思是new technical 我在读这本书的时候才知道) 毫无疑问 NT 内核推进微软的进一步的发展, 占领企业级市场, 摆脱IBM 的控制,做出了不可磨灭的贡献&lt;/p&gt;
+&lt;p&gt;虽然时间已经过去了20多年( 1989年开始开发NT) 但是如何管理大型团队, 如何处理团队成员超长时间的投入并维持好士气, 如何平衡商业和技术的冲突 依然是整个IT行业所面临的老大难问题.我感觉这本书就是人月神话的故事番外篇. 现代流行的软件工程概念其实20多年前都已经在微软中实施了比如持续交付, daily building, 单元测试等等&lt;/p&gt;
+&lt;p&gt;合上这本书后, 我一直在思索这个OS项目成功的最重要的因素-人&lt;/p&gt;
+&lt;p&gt;比尔盖茨, 一个的技术和商业奇才,在项目的过程中他在技术开发中起得作用貌似是最小但是细细琢磨他对项目的成功起了不可磨灭的贡献, 最大的贡献是充分授权, 授权给卡特勒全权管理NT团队并不加过问, 这件事说小但是很不容易做到. 作为一个公司的领导者,NT项目的成败关系着微软在企业级市场的表现, 按照一般的管理层肯定是三天小review, 一周大review.我相信盖茨也会想得到如果这样的话, 开发团队的工作重心是疲于应付BillG的无休止的会议而不是NT&lt;/p&gt;
+&lt;p&gt;戴夫卡特勒, 在DEC 带领他的团队开发了著名的VMS系统后来到了微软领导NT技术开发团队,他的脾气暴躁,语言粗鲁,狂妄自大, 时不时会贬低同僚,上司和下属 放在哪里HR都不会觉得他是一个好的团队领导者, 但是那是普通的HR, 在盖茨的心中虽然卡特勒的行为处事风格和他格格不入.不过他看到了卡特勒作为一个NT领导者所必不可少的条件, 1. 牛逼的技术水平 2.开发过VMS 3.百折不饶永不妥协的性格 4.身先士卒并肩作战. 特别是Bug 缠身,miss deadline, 深陷泥潭的时候,卡特勒性格上的闪光点指引着他的团队成员突破困境.&lt;/p&gt;
+&lt;p&gt;微软的技术经理们, 在微软总是避免让没有编程经验或者是只有过时知识的职业经理人来管理公司,仅依靠管理专家来领导软件团队 或者软件公司, 这件事破坏性的,他们既不能辨认出哪些是有前途的程序,也不能评估进度和产品的设计, 在管理专家经营的公司里, 这些职业经理们到后来总是不相信他们的程序员,因为他们不懂也不能进行任何控制. 即使是团队的技术经理,在微软里面也是需要写代码,参与产品的构建.这文化很重要, 我看过很多公司外行领导内行, 在会议中充满着欺骗,政治和忽悠. 卡特勒有句他很喜欢的话 当把所有的事情说一遍然后再做完时, 要说的话比要做的事多的多, 无法评价这句话是不是很片面, 但是有一点是肯定的就是实干比漫天吹嘘来的实在的多.&lt;/p&gt;
+&lt;p&gt;NT团队成员, 他们都是天才般的程序员,个性鲜明,各个不同项目抽调过来带着不同的文化, 文化上的冲突不可避免,比如图形小组的做事风格和老DEC 团队, 原来的OS/2小组和先前的NT 团队,两者相互贬低.互相歧视.很难想象东拼西凑的NT 团队居然不会因为这样的冲突造成项目的失败.我想原因大概有两个,一个是高级管理层的协调. 第二个是他们自己,虽然会互相拆台但是还是在可控, 理性的范围内的, 用代码说话, 用结果证明. 与此相反的是IBM, 书中有段描述一段关于他们那个时期的历史, 一个微软的员工来到IBM 调试OS/2,突然死机了这时候坐在电脑边上的IBM员工经过调试发现不是他的问题导致的,长吁一口气.居然当着没发生一样重启电脑重新进行他”自己”的工作.&lt;/p&gt;
+&lt;p&gt;每个牛逼的背后都是有一段苦逼的经历.这句话印证了微软五年来开发NT的时光&lt;/p&gt;&lt;/div&gt;</description><category>Book</category><category>OldBlog</category><guid>http://kenlen.net/posts/books-review-showstopper.html</guid><pubDate>Sun, 28 Oct 2012 16:14:31 GMT</pubDate></item><item><title>下个世纪的世界</title><link>http://kenlen.net/posts/books-review-physics-of-the-future.html</link><description>&lt;div&gt;&lt;p&gt;我想人类自从产生自我意识来就开始尝试着预言周围的一切.由此诞生了一系列迷信,邪教,宗教,当然还有科学.我们孜孜不倦追问着我是谁,从哪里来,到哪里去三个终极问题.在此之中,我一直都对到哪里去充满着兴趣.&lt;/p&gt;
+&lt;p&gt;100年后世界将是怎么样的? 在打开这本书前,我先想了下100年前也就是20世纪初的人们如何看待现在.那时候汽车刚发明还没马车跑得快,电影还是黑白无声的也只是富人消遣的娱乐方式,通讯是靠的是原始书信,绝大部分人还不知道飞行是什么感觉…我相信那时没有几个人会相信人类在未来几十年内能登录月球. 在这100年时间里,信息革命所带来的科技发展和财富积累远超过过去1000年的总和, 未来100年,科技应该是呈指数级的增长但是能发展到什么地方, 我真的无法想象.&lt;/p&gt;
+&lt;p&gt;书前言里加来道雄也提出了相同的问题.他提出了要想靠谱预言必须抓住科学这个推动社会变革的动力并不能像一些未来学家,通过拍脑袋的方法来预测, 加来道雄延续了之前达芬奇,凡尔纳的方法通过和当前最前沿的科学家访谈所得到的第一手资料来进行整合展现了2100年的生活状态. 对于作者在书中所说的对未来预测观点多少也都切合实际，符合我们人类文明未来的发展方向.&lt;/p&gt;
+&lt;p&gt;花了一个星期多的时间通读了全书. 这是本让人兴奋的书,加里道雄在每个话题中分为短期,中期和长期预测了哪些技术将会出现,原理是什么,依据是什么 以及当前遇到的研究困难和局限. 有些东西我们现在都可以找到市场原型了不仅仅停留在实验室里面,比如无人驾驶汽车, 柔软的电子纸,3D 打印, Google Glasses,纳米机器人,远程医疗,3D影像,人类基因组计划等等.&lt;/p&gt;
+&lt;p&gt;阅读时书中几个概念让我印象比较深刻, 一是洞穴人原理 , 眼见为实 耳听为虚已经深深的植入了我们的DNA, 在同等条件下, high-touch 比high-tech 更容易让人接受, 这就是为什么娱乐业在现在还依然发达的原因, 无纸办公变成了一个纸空谈. 二是 机器人以目前的研究方式, 最大的局限性还是在于模式识别和常识, 未来的重复性的劳动将会被机器人所取代,能够具有强大的推理能力, 领导能力和研究能力的人将会有更好的发展, 三是行星文明, 这个是人类发展的一个伟大的里程碑, 国家的权力将会弱化, 区域性和全球性的组织的权力会加强.&lt;/p&gt;
+&lt;p&gt;行星文明 ,作者给人类文明的远景给出的设想真是非常吸引人,不过真的很难说我们人类有没有那天,不同种族不同文化 不同的教育程度, 至少目前看上去是比较困难的.什么时候人类才能抛弃狭义的种族主义,爱国主义, XXXX主义,物质和精神生活高度发展. 估计会有实现的可能, 未来1000年内? 这个不好判断, 得靠基因和教育所决定.&lt;/p&gt;&lt;/div&gt;</description><category>Book</category><category>OldBlog</category><guid>http://kenlen.net/posts/books-review-physics-of-the-future.html</guid><pubDate>Sat, 27 Oct 2012 16:16:03 GMT</pubDate></item><item><title>走向宇宙</title><link>http://kenlen.net/posts/go-to-universe.html</link><description>&lt;div&gt;&lt;p&gt;近一段时间看了一系列最新的对于宇宙中未知领域探索的历史,现在和将来的纪录片其中有两部让我印象非常深刻,对人类的求知欲探索欲唏嘘不已.&lt;/p&gt;
+&lt;p&gt;&amp;lt;&amp;lt;穿越虫洞&amp;gt;&amp;gt;给我们描述了最新的量子技术, 空间技术,虫洞学说 再到万物的起源,人类的发展, 宇宙的组成, 暗物质, 暗能量, 各个牛逼的科学家现身说法,用最简单的语言 最易理解的实验来描述自己研究的方向, 最最重要的是这片的导演给出了各个五彩缤纷的答案但是不妄下结论.&lt;/p&gt;
+&lt;p&gt;&amp;lt;&amp;lt;当我们离开地球：美国国家航空航天局的太空行动&amp;gt;&amp;gt; 五六十年前美苏冷战, 在太空展开激烈的竞争此片描述了NASA 在过去五六十年怎么一步步去探索宇宙, 从水星计划 完成载人航空,到双子星计划完成了多人航天的和太空行走的目标, 阿波罗从1号到10号, 我们看到了美国一步步接近于月球, 直到11号 阿姆斯特朗和奥尔德林的成功登月. 迄今为止 阿波罗11号-16号 已经运送12名宇航员和科学家成功登上月球. 大量的NASA 第一手珍贵的影像资料都在这片中纷纷呈现.挑战者和哥伦比亚号的失事也展现了辉煌的背后蕴藏的大量的风险,要知道航天器一旦失事就意味着100%的死亡.&lt;/p&gt;
+&lt;p&gt;全片结束, 一个NASA的负责人说了下面一段话.值得铭记!&lt;/p&gt;
+&lt;blockquote&gt;
+我认为 探索精神是人类与生俱来的. 整个太空计划就是它的写照. 太空有一种神奇的力量,它让我们满怀抱负. 它刺激着人类的想象力,引领了巨大的变革. 同时也促进了整个社会的发展. 并且只要我们不懈努力 就一定能变梦想为现实. 我们要向年轻朋友们传达的 最重要的信息是 “不可能”这个词是不存在的 只有想不到 没有做不到 我们要继续前进 因为停止前进就意味着向太空投降&lt;/blockquote&gt;&lt;/div&gt;</description><category>OldBlog</category><category>Book</category><guid>http://kenlen.net/posts/go-to-universe.html</guid><pubDate>Fri, 28 Sep 2012 16:13:05 GMT</pubDate></item><item><title>预言般的1984</title><link>http://kenlen.net/posts/books-review-1984.html</link><description>&lt;div&gt;&lt;p&gt;最近在kindle上面拜读了乔治·奥威尔的1984, 书里虚构了一个英社的极权主义国家,里面有真理部, 友爱部, 和平部和富裕部.其中真(理)部负责新闻, 娱乐, 教育,艺术. 友(爱)部负责法律和秩序; 富(裕)部负责经济事务; 和(平)部负责战争. 通过三句口号: 战争即和平,自由即奴役,无知即力量 和到处可以检测到人一举一动的铁幕, 无数张 big brother is watching you 的招贴画 来控制整个国家. 奥威尔通过主人公的视角 给我们展现了一个毫无希望, 充满恐怖的社会.&lt;/p&gt;
+&lt;p&gt;在第一部中, 仇恨会, 铁幕, 思想警察, 老大哥和富裕部的夸海口”亩产上万斤”, 这一切和未来某个东方国家的一个时期内是多么惊人的相似, 人和人之间的关系是不可靠的,老大哥在看着你, 任何一个错误的话语都会被思想警察带走, 甚至连父母与孩子的关系也是如此的紧张, 大量的”民族小英雄”在监视, 观察, 举报自己的至亲为了仅仅是一个表彰?甚至热衷于看绞刑. 简直就是个人吃人的社会. 这些描述都并没有带来太多的震撼,因为或多或少都了解过那段历史.极权主义必然会出现这些情况, 比如苏联大清洗, 纳粹德国 ,朝鲜 和某个龙国. 限制人民的自由思考. 思想禁锢. 平均分配. 领袖崇拜.&lt;/p&gt;
+&lt;p&gt;文中第二部, 文中的女主角出现了 一张 “我爱你”的字条犹如一道灰色社会的一抹红色给主人公带来了对希望,在那疯狂的社会里面做了”疯狂”的事情,租了一套无产者的阁楼享受着爱情所带来的快乐, 在物质贫乏的年代, 女主角聪明的从核心党员的仆人那里搞到了真正的咖啡, 面包和她的爱人一起享用, 这里我们其实可以看到真正当权者生活是多么的富裕.女主角茱莉亚和主人公温斯顿的第一次野合, 温斯顿悲哀道 ” 我们已经死了” 因为主人公知道不管做得如何细致都逃不开big brother. 他犹如幽灵一样无时无刻盯着你. 这句话为第三部埋下了很深的伏笔&lt;/p&gt;
+&lt;p&gt;第三部是一个充满着戏剧性.温斯顿意识到如果要革命就需要依靠无产者的力量,并对无产者的给予了很大的期望. 在奥布兰的怂恿下男女主人公加入了所谓的兄弟会,但是文中对无产者的描述可以看出他们没有钱, 没有知识, 关注的就是彩票, 坑蒙拐骗, 吃喝嫖赌甚至就是个思想警察监视着周围的人. 温斯顿看到了奥布兰给的英社的禁书. 这本书里面其实就是把温斯顿在他的日记本上面描述的现实状况重新系统的表达出来.但是没有给出任何的解决方案,温斯顿是一个内心期待革命的那类人, 通过革命打败这个无耻的社会与之不同的是茱莉亚, 她只希望得到一个”小富即安” 的生活. 只要能够满足自己的欲望, 什么社会都无所谓. 我想这就是为什么 在思想警察逮捕他们进行拷问的时候 茱莉亚 的招供会比温斯顿来的快得多. 只要是个人就有短处, 弱点和所恐惧的事. 温斯顿在101室, 面对一群饥饿老鼠, 关在笼子的大老鼠要套在他头上撕咬他的脸, 那一瞬间, 他崩溃了.背叛了茱莉亚.不在要求做”人类精神的捍卫者”&lt;/p&gt;
+&lt;p&gt;这本小说读起来很压抑. 知道最后作者都残忍的把最后一丝希望都给掐灭. 温斯顿发现自己喜欢上了老大哥同时他右脚脖子上患静脉曲张的脚慢慢的好了不在隐隐作痛.&lt;/p&gt;
+&lt;p&gt;摘录几段书中的文字, 值得细细体会&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;谁控制过去，谁就控制未来；谁控制现在，谁就控制过去。&lt;/li&gt;
+&lt;li&gt;思想犯罪不会招来死亡，思想犯罪本身就是死亡。&lt;/li&gt;
+&lt;li&gt;他们不到觉悟的时候，他们就用不会造反，他们不造反，他们就不会觉悟。&lt;/li&gt;
+&lt;li&gt;这个世界上永远存在三种人，上等人、中等人、下等人。他们扮演的角色是上等人捍卫自己的权利和地位；中等人希望和上等人交换位置，下等人浑浑噩噩，但是是被利用的广大群体。正如书中主人公温斯顿在日记中写道：如果有希望的话，它在无产者身上。人类的历史就是三种人地位的变换，周而复始，无穷无尽。&lt;/li&gt;
+&lt;li&gt;统治集团只有在四种情况下才会丧失权力：或者是被外部力量所征服；或者是统治无能，群众起来造反；或者是让一个强大而不满的中等人集团出现；或者是自己丧失了统治的信心和意志。这四个原因并不单个起作用，在某种程度上总是同时存在。统治阶 级如能防止这四个原因的产生就能永久当权。最终的决定性因素是统治阶级本身的精神状态。&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>Book</category><category>OldBlog</category><guid>http://kenlen.net/posts/books-review-1984.html</guid><pubDate>Fri, 06 Jul 2012 16:11:15 GMT</pubDate></item><item><title>生死上海劫</title><link>http://kenlen.net/posts/books-review-life-and-death-in-shanghai.html</link><description>&lt;div&gt;&lt;p&gt;很早的时候就听说过一个温文尔雅的老人写过一本关于那个文革年代的纪传体小说,最近在网上找到了这本上海生死劫的epub版本,这两天自己转了下格式在kindle上读完了这本经典的书籍&lt;/p&gt;
+&lt;p&gt;通读完这本书后, 我深深的被郑念的理性, 仁慈和智慧所打动. 这个是真正的贵族的品格, 对于荒诞的人们最有力的回击, 在身陷囹圄能够忍受精神上肉体上的折磨后还坚持自己的原则, 用智慧来周旋着红卫兵, 用独立的思考反驳红卫兵口中一切毫无逻辑的空话套话假话. 作者的人格从头到尾都闪灼着吸引人的光辉.&lt;/p&gt;
+&lt;p&gt;没有什么比1966年-1976年的中国更加具有荒诞色彩的时代了. 一夜之间大家的生活都随着某个伟人的决定彻底改变了模样, 郑念笔下的红卫兵一个个打了鸡血似的疯狂,肆意的挥发人内心潜在的兽性,高举着造反有理的旗帜,烧杀抢夺,毫无顾忌. 书中刚开头几段描述让我印象极为深刻.文革刚开始, 红卫兵进入郑念家进行”抄家”, 郑念高举着宪法要求红卫兵出具收查证, 但是她手中的宪法被红卫兵抢夺下来狠狠踩在脚下,取而代之的是红红的毛主席语录, 这时候郑念就知道目前中国已经是毫无自由可言了. 在第一批红卫兵抄家走后, 来了第二批, 如果说第一批的红卫兵还是一个比较”纯粹”的严格意义上的”红卫兵” 那么第二批简直就是一批土匪挂着个红袖章来进行抢劫.一进到郑念家中就寻找一切值钱的东西并对她暴打一顿. 这段反应出了那时候中国任何的犯罪行为都可以被一个红袖标而变成了”正义”.在文革最鼎盛的事情, 很多人不堪忍受侮辱, 猜疑, 身心俱焚的感觉, 或胡乱指责 或自杀以逃离这个疯狂的世界, 但是郑念从不认罪,坚持要求国家在发行量最大的报纸上对她进行平反道歉, 在最不可能的时候骄傲的活着, 令她出狱时候因为政府并没有宣布她是无罪的一切都是政府的错而坚持 绝不出狱. 文革进入最后阶段, 上海流行着” 后门” 通过走后门获得一切在正规流程上得不到的东西与现在的类似.笔者在知道后问 后门是不是一个违法的行为. 这个问题被笔者的几个朋友的嘲笑声所淹没, 其实最该被嘲笑的是那些走后门和开后门的人, 在这个细节里面我们其实可以看到腐败横行并且肆无忌惮, 在文章的最后笔者也点到了美国的后门, 在美国的后门就是指厨房到花园的门外没有其他任何解释了.&lt;/p&gt;
+&lt;p&gt;合上书本, 我在思索为什么大家愿意并热衷于做红卫兵.我个人觉得,最重要的一点是所有国家封闭了所有打怪升级的道路, 读书无用论横行,所有的科研人员都被作为批斗对象,做点小买卖就要割资本主义尾巴 只留下了一条红卫兵的发展道路给年轻人, 所以不管出于自愿还是被迫, 只好选择了这条道路.所以红卫兵为什么如此之多, 第二点, 那时候的无产阶级, 其实就是没有接受过教育农民, 工人其中很多人小学都没有毕业,连字都认识不了几个. 生活很清苦,三年”自然灾害”后饭都吃不饱, 内心里面有很深的自卑感.政府顺利的把这些人的矛盾转向到那些所谓的富人阶级里面, 红卫兵里面这部分人对”走资派” 斗得最狠最凶,同时 顺手牵羊 偷得一些东西改善生活, 在文章中郑念对此有很好的描述.&lt;/p&gt;
+&lt;p&gt;十年浩劫, 同一批人上街游行多次, 把一个个原来的元老, 捧上后打倒, 一切都是源于某几个人的指意和决定,缺乏个人独立的思考. 上面捧谁就是谁, 摔谁, 谁就要被批斗并且全盘否定. 这样的时代是个人吃人的时代.我们只能期待这样的运动以后永远不要再次到来, 最近在网上看到一批大学生穿着文革的衣服拍毕业照, 我感到恐惧.希望他们能够好好了解这段历史后再决定能不能拍这样的毕业照.&lt;/p&gt;
+&lt;p&gt;最后向郑念女士表示衷心的敬意.您让我知道怎样做才能被称之为一个健全的人格.&lt;/p&gt;&lt;/div&gt;</description><category>Book</category><category>OldBlog</category><guid>http://kenlen.net/posts/books-review-life-and-death-in-shanghai.html</guid><pubDate>Thu, 07 Jun 2012 12:09:32 GMT</pubDate></item></channel></rss>

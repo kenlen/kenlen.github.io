@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="zh_cn">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Kenlen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开始使用Ubuntu作为主环境 | Kenlen's Blog</title>
+    
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+    },
+    displayAlign: 'center', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+
+    
+        
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+        
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    
+        
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+        
+    
+    
+
+    
+
+    
+
+
+
+    
+</head>
+<body>
+    <section class="social">
+        <ul>
+        
+    
+        
+            <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+        
+    
+        
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+        
+    
+        
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+        
+    
+        
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+        
+    
+        
+            <li><a href="http://kenlen.net" title="About me"><i class="icon-user"></i></a></li>
+        
+    
+        
+            <li><a href="https://twitter.com/kenlen" title="My Twitter"><i class="icon-twitter"></i></a></li>
+        
+    
+        
+            <li><a href="https://github.com/kenlen" title="My Github"><i class="icon-github"></i></a></li>
+        
+    
+
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+            
+    <div class="post">
+    
+    <h1 class="p-name" itemprop="headline name">开始使用Ubuntu作为主环境</h1>
+    
+
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2014-04-06T15:57:20+08:00">2014-04-06 15:57</time>
+            </div>
+            
+    
+
+            
+    
+          |  
+        <a href="environment-startted-with-ubuntu.rst" id="sourcelink">源代码</a>
+    
+
+            
+    
+    <div class="tags">
+        <ul>
+        更多相关文章：:  
+        
+            <li><a class="tag" href="../categories/ubuntu.html">ubuntu</a></li>
+        
+        </ul>
+    </div>
+    
+
+        </div>
+        <div class="body">
+            <div><p>最近刚买了一个sandisk至尊高速系列128GB的SSD来替代的5,400转的机械硬盘，琢磨着要重装系统，于是干脆转到ubuntu上面作为工作学习的环境，Python和R是我最主要的工作语言，这两个东西在windows下很多包安装比较费劲，干脆全面拥抱开源吧。时不时接触Debian系列的系统，安装的过程不怎么费劲，费劲的地方是配置，记录下来作为一篇文档给自己或者别人作为以后的一种参考.</p>
+<div class="section" id="id1">
+<h2>硬件配置</h2>
+<p><strong>SSD：</strong>
+在买之前看了一些网上文章和评论 大部分人还是纠结着分数的抱怨，跑分之类的文章，其实分数都是给人看主要关心实际应用怎么样，毕竟不是服务器环境快1秒半秒感觉不出来，所以挑了个保修过硬，口碑不错，价格适中的Sandisk。4k对齐的问题，其实开发人员早就考虑过这个问题，在安装的时候全部挂载到根目录，一个人用又是这么小的硬盘就没必要分目录了，内存超过4G没必要用swap。系统基本用不完的，很多人还启用了一些内存当着ramdisk挂在/tmp目录下面怕过多的写导致SSD寿命缩短，怕麻烦，我就选择相信厂商的实力忽略了。
+关闭EXT4的日志功能，对个人电脑来说日志倒是无所谓，写了几句关闭了它
+测试结果如下，还不错</p>
+<p>/dev/sda:</p>
+<p>Timing cached reads: 15856 MB in 2.00 seconds = 7933.67 MB/sec</p>
+<p>Timing buffered disk reads: 1472 MB in 3.00 seconds = 490.28 MB/sec</p>
+<p><strong>显卡</strong></p>
+<p>我这台笔记本是双显卡，intel和NV G640，默认是两个卡全开，这样会导致风扇呼呼的吹，内部温度居高不下，电池耗电，所以得想办法禁用了它，网上看搜索了下文档:</p>
+<pre class="literal-block">
+$sudo add-apt-repository ppa:bumblebee/stable
+$sudo apt-get update
+$sudo apt-get install bumblebee bumblebee-nvidia
+</pre>
+<p>靠上面的命令可以装上我们的大黄蜂nv显卡驱动，查看显卡工作状态得靠下面的命令:</p>
+<pre class="literal-block">
+$lspci|grep VGA
+$00:02.0 VGA compatible controller: Intel Corporation 3rd Gen Core processor Graphics Controller (rev 09)
+$01:00.0 VGA compatible controller: NVIDIA Corporation GK107M [GeForce GT 640M] (rev ff)
+</pre>
+<p>如果rev 是ff状态就代表关闭独显了</p>
+<p><strong>触摸板</strong></p>
+<p>这电脑的触摸板比较坑，系统把它认成了鼠标，fn+f3没办法禁用触摸板，驱动程序不起作用，放狗搜索了下，决定用touchpad-indicator来禁用吧:</p>
+<pre class="literal-block">
+$sudo add-apt-repository ppa:lorenzo-carbonell/atareao
+$sudo apt-get update
+$sudo apt-get install touchpad-indicator
+</pre>
+<p>安装完成后，可点击Applications &gt; Accessories &gt; Touchpad Indicator来禁用触摸板</p>
+</div>
+<div class="section" id="id2">
+<h2>软件环境</h2>
+<p>本着不折腾的原则来选择自己的喜欢的软件</p>
+<p><strong>Terminal</strong>
+直接用自带的gnome-terminal 出于喜欢rxvt透明环境，在.bashrc里面加上下面的一段bash，90是调整透明度的</p>
+<p><strong>浏览器</strong> google 的chrome，顺手把firefox卸载了</p>
+<p><strong>输入法</strong> 卸载了ibus，用小企鹅:</p>
+<pre class="literal-block">
+$sudo add-apt-repository ppa:fcitx-team/nightly &amp;&amp; sudo apt-get update
+</pre>
+<p>我比较喜欢google的拼音输入法:</p>
+<pre class="literal-block">
+$sudo apt-get install fcitx-googlepinyin
+</pre>
+<p><strong>邮件</strong> ThunderBird比较顺手，无缝集成newsgroup</p>
+<p><strong>VIM</strong> 从spf13出来后，我就再也没配置过vim了，这个插件足够好用，该有的都有了。折腾vim是个吃力不讨好的事情，但是我喜欢它的高效，配置的事情丢给别人去做吧</p>
+<p><strong>TeamViewer</strong> 有时候要远程到公司的工作机上，我使用了teamviewer的解决方案，安装比较坑，因为12.04及以后的版本缺失了Multiarch这个包后根本没办法装上官方版本，不过好歹在文档上提示了。网上搜索了下按照这样的方式就ok了:</p>
+<pre class="literal-block">
+$wget http://www.teamviewer.com/download/teamviewer_linux.deb
+$sudo apt-get install gdebi
+$sudo gdebi teamviewer_linux.deb
+</pre>
+<p>其他的比较大众化，装了一个Dropbox,架设了把goagent的梯子，Office用自带的LibreOffice,git,python 等等或是大众或是专业的软件可以通过apt来装，大家想用啥就用啥吧。
+陆陆续续用了几天来配置，除了网银外，其他还算顺手，顺便说句SSD真的很爽，开机post 后2秒进入桌面。</p>
+<p><strong>参考信息：</strong></p>
+<p><a class="reference external" href="http://blog.codinglabs.org/articles/getting-started-with-ubuntu.html">http://blog.codinglabs.org/articles/getting-started-with-ubuntu.html</a></p>
+<p><a class="reference external" href="http://blog.sina.com.cn/s/blog_6dee445401013sss.html">http://blog.sina.com.cn/s/blog_6dee445401013sss.html</a></p>
+<p><a class="reference external" href="https://www.linuxwind.org/html/tag/dell-inspiron-7420">https://www.linuxwind.org/html/tag/dell-inspiron-7420</a></p>
+<p><a class="reference external" href="http://forum.ubuntu.org.cn/">http://forum.ubuntu.org.cn/</a></p>
+<p>etc..</p>
+</div></div>
+        </div>
+        
+    
+        <ul class="pager">
+        
+            <li class="previous">
+                <a href="books-review-see.html" rel="prev">← 前一篇</a>
+            </li>
+        
+        
+            <li class="next">
+                <a href="fist-month-in-shanghai.html" rel="next">后一篇 →</a>
+            </li>
+        
+        </ul>
+    
+
+        
+            
+    
+
+        
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"kenlen"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+        
+    
+
+    </div>
+
+            Contents © 2014         <a href="mailto:kenlen.lai@gmail.com">Kenlen</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+    
+
+        </div>
+    </section>
+    
+    
+        
+            <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
+        
+    
+
+    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+	   
+        </script>
+    
+    
+</body>
+</html>

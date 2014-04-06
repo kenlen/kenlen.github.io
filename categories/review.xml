@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Kenlen's Blog (Review)</title><link>http://kenlen.net/</link><description></description><atom:link href="http://kenlen.net/categories/review.xml" type="application/rss+xml" rel="self"></atom:link><language>zh_cn</language><lastBuildDate>Mon, 07 Apr 2014 00:28:09 GMT</lastBuildDate><generator>Nikola &lt;http://getnikola.com/&gt;</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>2012年个人总结</title><link>http://kenlen.net/posts/review-2012.html</link><description>&lt;div&gt;&lt;p&gt;今天是2013年的第一天, 根据以前的习惯得对去年的一些情况做出些总结 回忆一年前的今天, 我希望在2012年完成的事情 1. 是学习.net 这件事情我完成了. 并独立帮助部门建立了一个EXCEL Template Submission的系统, 大家可以在线下做完后upload到那个系统里面, 在submit的过程中,应该是说upload到服务器后会自动的检查 Template的有效性和符合不符合要求. 这个project下来 减轻和一堆的工作量, 实现了one org one truth&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;英语, 应该来说这年的英语还是有很大的提高. 但还是没有达到流利的程度. 口语还需加强. 有的时候急起来会忘记怎么说.&lt;/li&gt;
+&lt;li&gt;精读20本书. 应该说精读不够, 泛读 应该有大概30本左右了.主要还是技术和技术管理之类的书籍.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2012 还有些值得纪念的事情&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;2012-12-19号我升级为父亲, 小女儿顺利降临到人世万分可爱.&lt;/li&gt;
+&lt;li&gt;学习了python 并期待在2013年能够通过python建立一些tools&lt;/li&gt;
+&lt;li&gt;关于未来的职业发展有了更清晰的认识, 技术和商业想结合的道路, 从数据挖掘出商业价值.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关于2013 的todo list 如下&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;希望女儿健康 平安的成长&lt;/li&gt;
+&lt;li&gt;自己的职位上有所突破&lt;/li&gt;
+&lt;li&gt;趁年轻多加努力学习提高自己的技术水平&lt;/li&gt;
+&lt;li&gt;对商业有进一步的认识&lt;/li&gt;
+&lt;li&gt;英语得提高&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>OldBlog</category><category>Review</category><guid>http://kenlen.net/posts/review-2012.html</guid><pubDate>Mon, 31 Dec 2012 16:19:31 GMT</pubDate></item><item><title>2011年个人总结</title><link>http://kenlen.net/posts/review-my-2011.html</link><description>&lt;div&gt;&lt;p&gt;2012年的第一天, 每年年头的时候都习惯做下个人总结和对新一年的展望和安排并吸取去年经验和教训.&lt;/p&gt;
+&lt;p&gt;2011年对我来说是收获大于遗憾, 最大的收获有两件事 第一件是8月份的时候结束了八年的爱情长跑踏入了婚姻的殿堂.第二件是我在公司里面更换了部门,让我的眼界又提高了一步,对于商业, 生意有了更进一步的了解&lt;/p&gt;
+&lt;p&gt;知识方面, 看了几本关于SQL Server和数据库原理的书籍,加深了对数据库管理规划和优化的知识.受到刘未鹏的影响, 对思维产生了兴趣, 渐渐的读了些书, 比如影响力, 学会提问 和beyond feeling, 我相信这是个潜移默化的一个过程不是一戳而就的.对于GTD 也有所涉猎,记得写核心的东西并运用起来,感觉还是很不错的&lt;/p&gt;
+&lt;p&gt;英语方面, 口语提高了点,毕竟天天要和外国人打交道,但是还是不够.没有投入大量的时间去学习.这个需要在2012年改进 多背背单词复习下语法知识多沟通 多说话&lt;/p&gt;
+&lt;p&gt;随着年纪的增大,发现自己要学的东西真的很多,时间很少,2011对真正觉得学海无涯.不知道这是好事还是坏事, 时不时的会出现莫名的焦虑,甚至开始出现了失眠.在以前这些都是没有过的. 知道的越多,不知道的更多了. 2012希望能够平稳下来.一步一个脚印的走&lt;/p&gt;
+&lt;p&gt;2012年 to do list&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;把丢了多年的.net再捡起来,因为这个很容易的可以帮助我实现写自动化的工具.建立部门内部的portal优化内部流程&lt;/li&gt;
+&lt;li&gt;英语英语英语 达到流利程度&lt;/li&gt;
+&lt;li&gt;精读20本书, 已经在豆列里面, 保持学习的心态.&lt;/li&gt;
+&lt;li&gt;加入一个社区,帮助别人提高自己&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2011年末,前几天我买了Kindle DXG作为个新年礼物,9.7寸的屏幕和6寸真的差距很大, 对于PDF的技术书籍支持很好,希望我在2012年再多读点书, 读好书,充实自己完善自己&lt;/p&gt;
+&lt;p&gt;你好,2012!&lt;/p&gt;&lt;/div&gt;</description><category>Review</category><category>OldBlog</category><guid>http://kenlen.net/posts/review-my-2011.html</guid><pubDate>Sun, 01 Jan 2012 02:52:30 GMT</pubDate></item></channel></rss>
