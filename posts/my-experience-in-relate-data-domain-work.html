@@ -1,0 +1,216 @@
+<!DOCTYPE html><html lang="zh_cn">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Kenlen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于数据平台架构的一点粗浅总结 | Kenlen's Blog</title>
+    
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+    },
+    displayAlign: 'center', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+
+    
+        
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+        
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    
+        
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+        
+    
+    
+
+    
+
+    
+
+
+
+    
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1028228-6', 'kenlen.net');
+  ga('send', 'pageview');
+
+</script>
+    <section class="social">
+        <ul>
+        
+    
+        
+            <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+        
+    
+        
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+        
+    
+        
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+        
+    
+        
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+        
+    
+        
+            <li><a href="http://kenlen.net" title="About me"><i class="icon-user"></i></a></li>
+        
+    
+        
+            <li><a href="https://twitter.com/kenlen" title="My Twitter"><i class="icon-twitter"></i></a></li>
+        
+    
+        
+            <li><a href="https://github.com/kenlen" title="My Github"><i class="icon-github"></i></a></li>
+        
+    
+
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+            
+    <div class="post">
+    
+    <h1 class="p-name" itemprop="headline name">关于数据平台架构的一点粗浅总结</h1>
+    
+
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2014-04-12T15:35:57+08:00">2014-04-12 15:35</time>
+            </div>
+            
+    
+
+            
+    
+          |  
+        <a href="my-experience-in-relate-data-domain-work.rst" id="sourcelink">源代码</a>
+    
+
+            
+    
+    <div class="tags">
+        <ul>
+        更多相关文章：:  
+        
+            <li><a class="tag" href="../categories/experience.html">experience</a></li>
+        
+            <li><a class="tag" href="../categories/thinking.html">thinking</a></li>
+        
+        </ul>
+    </div>
+    
+
+        </div>
+        <div class="body">
+            <div><p>最近在v2ex的问与答node里面看到了一个新人看完了hadoop权威指南后想进一步学习“大数据”方向的书籍，一时性起就回答了他的 <a class="reference external" href="http://v2ex.com/t/107891#reply3">答案</a> .今天回过头来想想把这篇问答扩充一下，可以作为一点粗浅的个人总结，有关于技术实现这块，解决方案实在太多了不同的方案之间有利有弊，要根据不同业务场景来权衡，我就挑一些出名的吧。</p>
+<p>扯点题外话我很讨厌“大”数据这个名词，这个名词完全是媒体和某些“科技评论家“炒作出来的，数据在我眼里只有好数据和坏数据区别这是道，数据量的大不大那是术，弃道投术这将会走火入魔。</p>
+<ul class="simple">
+<li>好数据，逻辑清晰，有效存储，记录完整，全点覆盖很容易就可以找到我们业务出现的问题，挖掘出一些少为人知的相关性，容易被业务感知，清晰的知道自己要做什么才能有效的推动公司发展。</li>
+<li>坏数据则反之，逻辑混乱，无序存储，记录不完善，缺失点多，如果坏数据过多，越大的数据量所造成的灾难就越大，企业内部疲与天天找数据，洗数据，对数据，PK数据，废钱废力。到最后不知道自己要干什么。</li>
+</ul>
+<p>在整个数据平台里面管理和规范，有些公司成立了专门的数据治理（data governance）团队来进行数据流程的梳理和规范，这点实在是太重要了，我个人的经验就是 <strong>数据就是要在产生前就要规范它</strong>，规范它的名称，存储类型，业务场景，统计口径，缺失值的处理，否则直接导致坏数据，产生一系列麻烦,扯皮的根源。</p>
+<p>有关于开源海量数据平台技术方面在我脑海里大概分为5个大块和一块贯穿其中的元数据管理，ETL的开发，数据平台的搭建，数据仓库/集市，数据挖掘，数据产品与应用（和我之前的回答略有不同）</p>
+<p><strong>ETL的开发</strong></p>
+<p>针对系统日志，web日志，爬虫日志，用户行为日志的抽取，转换和加载。在具体的技术应用中比较有名的包括scribe，chukwa，flume等，典型的日志系统需具备三个基本部分</p>
+<ul class="simple">
+<li><strong>agent</strong> :封装数据源，将数据源中的数据发送给collector</li>
+<li><strong>collector</strong> :接收多个agent的数据，并进行汇总后导入后端的store中</li>
+<li><strong>store</strong> :中央存储系统，应该具有可扩展性和可靠性，应该支持当前非常流行的HDFS</li>
+</ul>
+<p>一般上海量日志要支撑不同的数据应用，消息队列是必不可少的一块环节，kafka很高效用pull机制区别与其他MQ在很多大企业中得到了支持，因为pull机制是由客户端来取回数据而不是服务端push，push方式在海量日志处理时候会有很大的几率导致客户端超负荷而down机，当然这些都可以通过zookeeper来保证HA。</p>
+<p><strong>数据平台的搭建</strong></p>
+<p>在海量数据的时候很多互联网公司会选择用hadoop来做离线运算，storm作为流式运算，spark作为近线运算。这些都可以架于HDFS文件系统上，这块已经火的不行了，就不详细说了</p>
+<p><strong>数据仓库/集市</strong></p>
+<p>hadoop之流的一般都hive来作为数据仓库，其实很多时候我们都需要建立一些数据集市来供给数据产品或者数据分析师来使用，mysql首当其冲，nosql的选择性就更广了</p></div>
+        </div>
+        
+    
+        <ul class="pager">
+        
+            <li class="previous">
+                <a href="fist-month-in-shanghai.html" rel="prev">← 前一篇</a>
+            </li>
+        
+        
+            <li class="next">
+                <a href="out-of-algorithm-box-for-personalization-and-recommendation.html" rel="next">后一篇 →</a>
+            </li>
+        
+        </ul>
+    
+
+        
+            
+    
+
+        
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="" data-title="关于数据平台架构的一点粗浅总结" data-url="/posts/my-experience-in-relate-data-domain-work.html"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"kenlen"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+        
+    
+
+    </div>
+
+            Contents © 2014         <a href="mailto:kenlen.lai@gmail.com">Kenlen</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+    
+
+        </div>
+    </section>
+    
+    
+        
+            <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
+        
+    
+
+    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+	   
+        </script>
+    
+    
+
+</body>
+</html>

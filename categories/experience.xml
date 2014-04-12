@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Kenlen's Blog (experience)</title><link>http://blog.kenlen.net/</link><description></description><atom:link href="http://blog.kenlen.net/categories/experience.xml" type="application/rss+xml" rel="self"></atom:link><language>zh_cn</language><lastBuildDate>Sat, 12 Apr 2014 21:59:42 GMT</lastBuildDate><generator>Nikola &lt;http://getnikola.com/&gt;</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>关于数据平台架构的一点粗浅总结</title><link>http://blog.kenlen.net/posts/my-experience-in-relate-data-domain-work.html</link><description>&lt;div&gt;&lt;p&gt;最近在v2ex的问与答node里面看到了一个新人看完了hadoop权威指南后想进一步学习“大数据”方向的书籍，一时性起就回答了他的 &lt;a class="reference external" href="http://v2ex.com/t/107891#reply3"&gt;答案&lt;/a&gt; .今天回过头来想想把这篇问答扩充一下，可以作为一点粗浅的个人总结，有关于技术实现这块，解决方案实在太多了不同的方案之间有利有弊，要根据不同业务场景来权衡，我就挑一些出名的吧。&lt;/p&gt;
+&lt;p&gt;扯点题外话我很讨厌“大”数据这个名词，这个名词完全是媒体和某些“科技评论家“炒作出来的，数据在我眼里只有好数据和坏数据区别这是道，数据量的大不大那是术，弃道投术这将会走火入魔。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;好数据，逻辑清晰，有效存储，记录完整，全点覆盖很容易就可以找到我们业务出现的问题，挖掘出一些少为人知的相关性，容易被业务感知，清晰的知道自己要做什么才能有效的推动公司发展。&lt;/li&gt;
+&lt;li&gt;坏数据则反之，逻辑混乱，无序存储，记录不完善，缺失点多，如果坏数据过多，越大的数据量所造成的灾难就越大，企业内部疲与天天找数据，洗数据，对数据，PK数据，废钱废力。到最后不知道自己要干什么。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在整个数据平台里面管理和规范，有些公司成立了专门的数据治理（data governance）团队来进行数据流程的梳理和规范，这点实在是太重要了，我个人的经验就是 &lt;strong&gt;数据就是要在产生前就要规范它&lt;/strong&gt;，规范它的名称，存储类型，业务场景，统计口径，缺失值的处理，否则直接导致坏数据，产生一系列麻烦,扯皮的根源。&lt;/p&gt;
+&lt;p&gt;有关于开源海量数据平台技术方面在我脑海里大概分为5个大块和一块贯穿其中的元数据管理，ETL的开发，数据平台的搭建，数据仓库/集市，数据挖掘，数据产品与应用（和我之前的回答略有不同）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ETL的开发&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;针对系统日志，web日志，爬虫日志，用户行为日志的抽取，转换和加载。在具体的技术应用中比较有名的包括scribe，chukwa，flume等，典型的日志系统需具备三个基本部分&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;agent&lt;/strong&gt; :封装数据源，将数据源中的数据发送给collector&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;collector&lt;/strong&gt; :接收多个agent的数据，并进行汇总后导入后端的store中&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;store&lt;/strong&gt; :中央存储系统，应该具有可扩展性和可靠性，应该支持当前非常流行的HDFS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一般上海量日志要支撑不同的数据应用，消息队列是必不可少的一块环节，kafka很高效用pull机制区别与其他MQ在很多大企业中得到了支持，因为pull机制是由客户端来取回数据而不是服务端push，push方式在海量日志处理时候会有很大的几率导致客户端超负荷而down机，当然这些都可以通过zookeeper来保证HA。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;数据平台的搭建&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在海量数据的时候很多互联网公司会选择用hadoop来做离线运算，storm作为流式运算，spark作为近线运算。这些都可以架于HDFS文件系统上，这块已经火的不行了，就不详细说了&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;数据仓库/集市&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;hadoop之流的一般都hive来作为数据仓库，其实很多时候我们都需要建立一些数据集市来供给数据产品或者数据分析师来使用，mysql首当其冲，nosql的选择性就更广了&lt;/p&gt;&lt;/div&gt;</description><category>experience</category><category>thinking</category><guid>http://blog.kenlen.net/posts/my-experience-in-relate-data-domain-work.html</guid><pubDate>Sat, 12 Apr 2014 07:35:57 GMT</pubDate></item></channel></rss>
